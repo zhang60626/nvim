@@ -77,8 +77,12 @@ return packer.startup(function(use)
     use 'nvim-telescope/telescope-media-files.nvim'
     use "BurntSushi/ripgrep"
 
+    -- treesitter
+    use { "nvim-treesitter/nvim-treesitter", run = ":TSUpdate", }
+    use "p00f/nvim-ts-rainbow"
+    use "nvim-treesitter/playground"
+
     use "aklt/plantuml-syntax" -- plantuml highlight plugin
-    use "nvim-treesitter/nvim-treesitter"
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
