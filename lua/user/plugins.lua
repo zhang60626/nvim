@@ -102,7 +102,10 @@ return packer.startup(function(use)
 
     -- lualine
     use 'nvim-lualine/lualine.nvim'
-
+    
+    -- toggleterm
+    use "akinsho/toggleterm.nvim"
+    
     use "aklt/plantuml-syntax" -- plantuml highlight plugin
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
