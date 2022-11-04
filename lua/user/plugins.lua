@@ -49,7 +49,7 @@ return packer.startup(function(use)
     use "wbthomason/packer.nvim" -- Have packer manage itself
     use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
     use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
-    
+
     -- Colorschemes
     use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
     use "EdenEast/nightfox.nvim"
@@ -84,6 +84,10 @@ return packer.startup(function(use)
 
     -- auto pairs
     use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
+
+    -- comment
+    use 'JoosepAlviste/nvim-ts-context-commentstring'
+    use "numToStr/Comment.nvim" -- Easily comment stuff
 
     use "aklt/plantuml-syntax" -- plantuml highlight plugin
 
