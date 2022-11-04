@@ -82,6 +82,9 @@ return packer.startup(function(use)
     use "p00f/nvim-ts-rainbow"
     use "nvim-treesitter/playground"
 
+    -- auto pairs
+    use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
+
     use "aklt/plantuml-syntax" -- plantuml highlight plugin
 
     -- Automatically set up your configuration after cloning packer.nvim
