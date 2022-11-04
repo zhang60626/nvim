@@ -92,6 +92,10 @@ return packer.startup(function(use)
     -- Git
     use "lewis6991/gitsigns.nvim"
 
+    -- nvim-tree
+    use "nvim-tree/nvim-tree.lua"
+    use "nvim-tree/nvim-web-devicons"
+
     use "aklt/plantuml-syntax" -- plantuml highlight plugin
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
