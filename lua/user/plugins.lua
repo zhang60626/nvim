@@ -102,11 +102,17 @@ return packer.startup(function(use)
 
     -- lualine
     use 'nvim-lualine/lualine.nvim'
-    
+
     -- toggleterm
     use "akinsho/toggleterm.nvim"
-    
+
+    use "lukas-reineke/indent-blankline.nvim"
+
     use "aklt/plantuml-syntax" -- plantuml highlight plugin
+
+    use "rust-lang/rust.vim" -- rust
+--    use "simrat39/rust-tools.nvim"
+
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
     if PACKER_BOOTSTRAP then

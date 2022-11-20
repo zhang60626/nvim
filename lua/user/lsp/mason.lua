@@ -4,8 +4,8 @@ local servers = {
 	"jsonls",
     "clangd",
     "jdtls",
-    "rust_analyzer",
     "gopls",
+    "rust_analyzer",
 }
 
 local settings = {
