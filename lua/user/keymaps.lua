@@ -36,6 +36,11 @@ keymap("n", "<A-l>", ":bnext<CR>", opts)
 keymap("n", "<A-h>", ":bprevious<CR>", opts)
 
 keymap("n", "<leader>b", ":buffers<CR>:buffer <Space>", opts)
+keymap("n", "<leader>w", ":bd<CR>", opts)
+
+-- insert a new line without insert mode
+keymap("n", "<leader>o", "o<Esc>", opts)
+keymap("n", "<leader>O", "O<Esc>", opts)
 
 -- Move text up and down
 --keymap("n", "<A-j>", "<Esc>:m .+1<CR>==gi", opts)
